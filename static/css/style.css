@@ -1,0 +1,83 @@
+body{
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.1)), url(../images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% ;
+}
+
+.first-div{
+    float: left;
+    width: 60%;
+    border: 2px solid aliceblue;
+    margin: 10% 20% 0% 20%;
+}
+
+.first-div input{
+    float: left;
+    width: 90%;
+    font-size: 35px;
+    padding: 1%;
+    margin: 2% 0% 1% 5%;
+    text-align: center;
+    font-weight: 900;
+    background-color: rgba(75, 73, 73, 0.412);
+    border: 3px solid grey;
+    color: aliceblue;
+}
+
+.first-div button{
+    float: left;
+    width: 60%;
+    font-size: 35px;
+    padding: 1%;
+    margin: 2% 0% 2% 20%;
+    text-align: center;
+    font-weight: 900;
+    background-color: rgba(75, 73, 73, 0.412);
+    color: grey;
+    border: 1px solid aliceblue;
+}
+
+.first-div button:hover{
+    background-color: rgba(45, 43, 43, 0.727);
+    transition: 0.5s;
+    font-size: 45px;
+}
+
+input:focus{
+    font-size: 45px;
+    transition: 0.5s;
+    box-shadow: 4px 4px 30px aliceblue;
+}
+
+#response-div{
+    float: left;
+    width: 100%;
+    background-color: rgba(27, 132, 97, 0.505);
+    color: aliceblue;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+}
+
+#btn2{
+    width: 4%;
+    height: 50px;
+    font-size: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    background-color: transparent;
+    color: black;
+}
+
+
+#response-div p{
+    width: 30%;
+    margin: 0.5% 25% 0.5% 40%;
+}
+
+#btn2:hover{
+    background-color: rgba(0, 0, 0, 0.349);
+    transition: 0.5s;
+}
